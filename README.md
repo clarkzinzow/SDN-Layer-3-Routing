@@ -2,7 +2,7 @@
 
 A Software Defined Networking layer-3 routing application that constructs route tables based on a
 global view of the network topology.  The appropriate route table is installed in each SDN switch by
-the application, and each SDN switch will forward packets according to the installed route table.
+the application, and each SDN switch forwards packets according to the installed route table.
 
 This layer-3 routing application installs route table entries that match packets based on their
 destination IP address (and Ethernet type), and execute an output action to send the packet out a
